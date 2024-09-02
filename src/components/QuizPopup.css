@@ -17,11 +17,11 @@
 
 /* Expanded Popup */
 .quiz-popup.expanded {
-  width: 80%;
-  max-width: 600px;
-  height: auto;
-  top: 50%;
-  left: 50%;
+  width: 50%;
+  max-width: 400px;
+  height: 420px;
+  top: 25%;
+  left: 30%;
   transform: translate(-50%, -50%);
   padding: 30px;
   border-radius: 20px;
@@ -237,16 +237,16 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .quiz-popup {
-    width: 90%;
+    width: 60%;
     right: 5%;
     top: 10%;
     padding: 15px;
   }
 
   .quiz-popup.expanded {
-    width: 90%;
-    top: 50%;
-    left: 50%;
+    width: 60%;
+    /* top: 30%;
+    left: 10%; */
     transform: translate(-50%, -50%);
   }
 
@@ -276,18 +276,18 @@
 
 @media (max-width: 480px) {
   .quiz-popup {
-    width: 100%;
-    right: 0;
+    width: 50%;
+    right: 60%;
     left: 0;
-    top: 0;
+    top: 15%;
     border-radius: 0;
     padding: 10px;
   }
 
   .quiz-popup.expanded {
-    width: 100%;
-    top: 50%;
-    left: 50%;
+    width: 80%;
+    top: 30%;
+    left: 10%;
     transform: translate(-50%, -50%);
   }
 
